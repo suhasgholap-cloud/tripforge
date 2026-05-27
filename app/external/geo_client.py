@@ -1,1 +1,44 @@
-﻿# geo client
+﻿STATIC_ATTRACTIONS = {
+    'HAN': [
+        {'name':'Hoan Kiem Lake','lat':21.0285,'lon':105.8521,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Ngoc Son Temple','lat':21.0291,'lon':105.8527,'category':'sightseeing','entry_fee_sgd':1.5},
+        {'name':'Ho Chi Minh Mausoleum','lat':21.0368,'lon':105.8349,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Temple of Literature','lat':21.0233,'lon':105.8356,'category':'sightseeing','entry_fee_sgd':1.5},
+        {'name':'Vietnam Museum of Ethnology','lat':21.0378,'lon':105.8041,'category':'museum','entry_fee_sgd':3},
+        {'name':'Old Quarter Night Market','lat':21.0341,'lon':105.8481,'category':'shopping','entry_fee_sgd':0},
+        {'name':'West Lake','lat':21.0511,'lon':105.8226,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Hoa Lo Prison Museum','lat':21.0311,'lon':105.8453,'category':'museum','entry_fee_sgd':2},
+    ],
+    'BKK': [
+        {'name':'Grand Palace','lat':13.7499,'lon':100.4913,'category':'sightseeing','entry_fee_sgd':18},
+        {'name':'Wat Pho Temple','lat':13.7465,'lon':100.4930,'category':'sightseeing','entry_fee_sgd':8},
+        {'name':'Chatuchak Weekend Market','lat':13.7999,'lon':100.5508,'category':'shopping','entry_fee_sgd':0},
+        {'name':'Jim Thompson House','lat':13.7490,'lon':100.5301,'category':'museum','entry_fee_sgd':10},
+        {'name':'Asiatique Riverfront','lat':13.7184,'lon':100.5102,'category':'shopping','entry_fee_sgd':0},
+        {'name':'Khao San Road','lat':13.7590,'lon':100.4973,'category':'food','entry_fee_sgd':0},
+    ],
+    'DPS': [
+        {'name':'Tanah Lot Temple','lat':-8.6215,'lon':115.0868,'category':'sightseeing','entry_fee_sgd':4},
+        {'name':'Ubud Monkey Forest','lat':-8.5188,'lon':115.2593,'category':'sightseeing','entry_fee_sgd':4},
+        {'name':'Tegallalang Rice Terraces','lat':-8.4314,'lon':115.2786,'category':'sightseeing','entry_fee_sgd':2},
+        {'name':'Seminyak Beach','lat':-8.6877,'lon':115.1561,'category':'beach','entry_fee_sgd':0},
+        {'name':'Kuta Beach','lat':-8.7183,'lon':115.1687,'category':'beach','entry_fee_sgd':0},
+        {'name':'Ubud Art Market','lat':-8.5069,'lon':115.2625,'category':'shopping','entry_fee_sgd':0},
+    ],
+    'NRT': [
+        {'name':'Senso-ji Temple','lat':35.7148,'lon':139.7967,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Shibuya Crossing','lat':35.6595,'lon':139.7004,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Tsukiji Outer Market','lat':35.6654,'lon':139.7707,'category':'food','entry_fee_sgd':0},
+        {'name':'Akihabara Electronics Town','lat':35.7022,'lon':139.7741,'category':'shopping','entry_fee_sgd':0},
+        {'name':'Tokyo National Museum','lat':35.7188,'lon':139.7765,'category':'museum','entry_fee_sgd':8},
+        {'name':'teamLab Planets','lat':35.6469,'lon':139.7952,'category':'sightseeing','entry_fee_sgd':28},
+    ],
+    'MEL': [
+        {'name':'Federation Square','lat':-37.8179,'lon':144.9690,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Royal Botanic Gardens','lat':-37.8304,'lon':144.9798,'category':'sightseeing','entry_fee_sgd':0},
+        {'name':'Melbourne Museum','lat':-37.8027,'lon':144.9718,'category':'museum','entry_fee_sgd':15},
+        {'name':'Queen Victoria Market','lat':-37.8072,'lon':144.9568,'category':'shopping','entry_fee_sgd':0},
+        {'name':'St Kilda Beach','lat':-37.8678,'lon':144.9774,'category':'beach','entry_fee_sgd':0},
+        {'name':'Lygon Street','lat':-37.7985,'lon':144.9663,'category':'food','entry_fee_sgd':0},
+    ],
+}
